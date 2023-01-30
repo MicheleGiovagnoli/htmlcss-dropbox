@@ -28,6 +28,9 @@ header .max-container {
 .bg-sky {
     background-color: #B4D0E7;
 }
+.bg-black {
+    background-color: black;
+}
 /* --->GENERAL<--- */
 
 
@@ -103,6 +106,7 @@ header .max-container {
 }
 .last-ask{
     border-bottom: solid 1px black;
+    margin-bottom: 50px;
 }
 
 .blue-bar {
@@ -111,3 +115,24 @@ header .max-container {
 }
 
 /* --->MAIN<--- */
+
+
+/* --->FOOTER<--- */
+.footer-col ul {
+    color: white;
+    list-style-type: none;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.title {
+    padding-bottom: 10px;
+}
+
+.language {
+    
+    border-top: solid 1px white;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* --->FOOTER<--- */
