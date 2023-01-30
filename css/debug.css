@@ -1,0 +1,21 @@
+.debug-red {
+    background-color: red;
+
+}
+.debug-blue {
+    background-color: blue;
+    
+}
+.debug-grey {
+    background-color: grey;
+    height: 200px;
+}
+.debug-green {
+    background-color: green;
+    height: 200px;
+}
+
+.debug-maroon{
+    background-color: maroon;
+    height: 200px;
+}
