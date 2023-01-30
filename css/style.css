@@ -90,11 +90,24 @@ header .max-container {
 
 .square {
 
-    width: calc(100% /2);
-    height: calc(100% /2);
+    width: 50%;
+    height: 50%;
     border: solid 1px black;
 
 }
+.ask {
 
+    width: 100%;
+    padding: 30px;
+    border-top: solid 1px black;
+}
+.last-ask{
+    border-bottom: solid 1px black;
+}
+
+.blue-bar {
+    /* cancellare */
+    height: 200px;
+}
 
 /* --->MAIN<--- */
