@@ -61,28 +61,27 @@ header .max-container {
 }
 .square-box {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     
 }
 .square-box-left {
    
-    width: 500px;
+    width: calc(100% / 3);
     height: 500px;
     display: flex;
     flex-wrap: wrap;
-    flex-grow: 1;
+    
 
 }
 .square-box-center {
-    width: 500px;
+    width: calc(100% / 3);
     height: 500px;
-    overflow-y: scroll;
-    flex-grow: 1;
+    display: flex;
  
 }
 .square-box-right {
    
-    width: 500px;
+    width: calc(100% / 3);
     height: 500px;
     display: flex;
     flex-wrap: wrap;
@@ -91,8 +90,8 @@ header .max-container {
 
 .square {
 
-    width: 250px;
-    height: 250px;
+    width: calc(100% /2);
+    height: calc(100% /2);
     border: solid 1px black;
 
 }
