@@ -123,9 +123,12 @@ header .max-container {
     padding-right: 40px;
     display: inline-block;
 }
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
 .col {
     width: calc((100% / 3) - 20px);
-
 }
 .col-top {
     border-bottom: solid 1px rgba(128, 128, 128, 0.5);
@@ -136,9 +139,6 @@ header .max-container {
     padding: 30px;
     font-size: 10px;
 }
-.col-bottom h3 {
-    font-size: 20px;
-}
 .object {
     display: flex;
     width: 100%;
@@ -147,6 +147,7 @@ header .max-container {
 .object-left {
     width: 10%;
     padding-right:10px;
+    
 }
 .object-right {
     width: 90%;
@@ -163,13 +164,36 @@ header .max-container {
 .list-col {
     list-style-type: none;  
 }
-.columns {
-    display: flex;
-    justify-content: space-between;
+.list-col .object-left {
+    color: #0061FF;
 }
-
-
-
+.col-orizzontal {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.col-orizzontal-bottom {
+    display: flex;
+    padding: 20px;
+}
+.col-orizzontal-bottom-left {
+    width: 75%;
+}
+.col-orizzontal-bottom-left h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.col-orizzontal-bottom-left span{
+    display: block;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.col-orizzontal-bottom-left p{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.col-orizzontal-bottom-right{
+    width: 25%;
+}
 /* piani di acquisto */
 
 .box {
