@@ -64,6 +64,10 @@ main {
     display: inline;
     height: 50px;
 }
+.title-h2{
+    margin-top: 150px;
+    font-size: 35px;
+}
 /* --->GENERAL<--- */
 
 /* --->HEADER<--- */
@@ -112,11 +116,8 @@ header .max-container {
     position: absolute;
 }
 /* jumbo */
+
 /* piani di acquisto */
-.h2-selector h2{
-    margin-top: 150px;
-    font-size: 35px;
-}
 .checkbox {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -194,7 +195,9 @@ header .max-container {
 .col-orizzontal-bottom-right{
     width: 25%;
 }
-/* piani di acquisto */
+/* fine piani di acquisto */
+
+/* partner */
 .partner {
    width: 100%;
    display: flex;
@@ -219,24 +222,33 @@ header .max-container {
     color: black;
     border:solid 1px black;
 }
+/* fine partner */
 
-
-
-
-
-
-
+/* box */
 .box {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 50px;
 }
-
 .content {
     width: calc((100% / 3) - 10px );
     margin-top: 10px;
+    
 }
+.content img {
+    width: 100%;
+}
+.content h3 {
+    margin-top: 20px;
+}
+.content p {
+    margin-top: 20px;
+    font-size: 12px;
+}
+/* fine box */
 
+/* square box */
 .square-box {
     display: flex;
     justify-content: center;
@@ -247,6 +259,16 @@ header .max-container {
     height: 500px;
     display: flex;
     flex-wrap: wrap;
+}
+.square {
+    width: 50%;
+    height: 50%;
+    border: solid 1px black;
+    background-color: #A2D39B;
+}
+.square img {
+    width: 50%;
+    
 }
 
 .square-box-center {
@@ -263,12 +285,6 @@ header .max-container {
     flex-wrap: wrap;
 }
 
-.square {
-    width: 50%;
-    height: 50%;
-    border: solid 1px black;
-}
-
 .ask {
     width: 100%;
     padding: 30px;
@@ -280,10 +296,6 @@ header .max-container {
     margin-bottom: 50px;
 }
 
-.blue-bar {
-    /* cancellare */
-    height: 200px;
-}
 /* --->MAIN<--- */
 
 /* --->FOOTER<--- */
