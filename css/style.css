@@ -1,24 +1,22 @@
+
+/* --->GENERAL<--- */
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 
 }
-
-/* --->HEADER<--- */
-header .max-container {
-    display: flex;
-    justify-content: space-between;
+body {
+   font-family: sans-serif;
 }
-/* --->HEADER<--- */
-
-
-/* --->GENERAL<--- */
+main {
+    padding-top: 100px;
+}
 .max-container {
-    width: 100vw;
+    width: 100%;
 }
 .medium-container {
-    width: 70%;
+    width: 75%;
     margin: auto;
 }
 .small-container {
@@ -31,79 +29,108 @@ header .max-container {
 .bg-black {
     background-color: black;
 }
+.bg-white {
+    background-color: whitesmoke;
+}
+.button {
+    padding: 8px 15px;
+    background-color: #0061FF;
+    border: none;
+    color: white;
+}
 /* --->GENERAL<--- */
 
-
-/* --->MAIN<--- */
-.columns {
-    
+/* --->HEADER<--- */
+header .max-container {
     display: flex;
     justify-content: space-between;
-    
+    position: fixed;
 }
+.header ul{
+    list-style-type: none;
+    display: flex;   
+    padding: 10px;
+}
+.header li {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+/* --->HEADER<--- */
+
+/* --->MAIN<--- */
+.jumbo {
+    display: flex;
+}
+.jumbo-left {
+    width: 40%;
+}
+.jumbo-right img{
+    width: 60%;
+}
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
+
 .col {
-    
     width: 200px;
-
 }
-.col-bottom {
 
+.col-bottom {
     margin-top: 20px;
 }
-.box {
 
+.box {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
 }
-.content {
 
+.content {
     width: calc((100% / 3) - 10px );
     margin-top: 10px;
 }
+
 .square-box {
     display: flex;
     justify-content: center;
-    
 }
+
 .square-box-left {
-   
     width: calc(100% / 3);
     height: 500px;
     display: flex;
     flex-wrap: wrap;
-    
-
 }
+
 .square-box-center {
     width: calc(100% / 3);
     height: 500px;
     display: flex;
- 
+    overflow-y: auto;
 }
+
 .square-box-right {
-   
     width: calc(100% / 3);
     height: 500px;
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .square {
-
     width: 50%;
     height: 50%;
     border: solid 1px black;
-
 }
-.ask {
 
+.ask {
     width: 100%;
     padding: 30px;
     border-top: solid 1px black;
 }
+
 .last-ask{
     border-bottom: solid 1px black;
     margin-bottom: 50px;
@@ -113,9 +140,7 @@ header .max-container {
     /* cancellare */
     height: 200px;
 }
-
 /* --->MAIN<--- */
-
 
 /* --->FOOTER<--- */
 .footer-col ul {
@@ -124,12 +149,12 @@ header .max-container {
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
 .title {
     padding-bottom: 10px;
 }
 
 .language {
-    
     border-top: solid 1px white;
     color: white;
     padding-top: 50px;
