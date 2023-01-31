@@ -68,6 +68,11 @@ main {
     margin-top: 150px;
     font-size: 35px;
 }
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* --->GENERAL<--- */
 
 /* --->HEADER<--- */
@@ -268,7 +273,7 @@ header .max-container {
 }
 .square img {
     width: 50%;
-    
+    color: white;
 }
 
 .square-box-center {
@@ -284,7 +289,10 @@ header .max-container {
     display: flex;
     flex-wrap: wrap;
 }
-
+/* fine square-box */
+.h2 {
+    padding: 50px;
+}
 .ask {
     width: 100%;
     padding: 30px;
