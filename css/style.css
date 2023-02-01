@@ -38,6 +38,12 @@ main {
     border: none;
     color: white;
 }
+.button-white {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 8px 15px;
+}
 .w-30 {
     width: 30%;
 }
@@ -60,6 +66,9 @@ main {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.padding-bottom {
+    padding-bottom: 50px;
+}
 .in-line {
     display: inline;
     height: 50px;
@@ -72,6 +81,10 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.font-blue {
+    color: #0093CE;
+    text-decoration: underline;
 }
 /* --->GENERAL<--- */
 
@@ -257,9 +270,15 @@ header .max-container {
 .square-box {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-
 .square-box-left {
+    width: calc(100% / 3);
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.square-box-right {
     width: calc(100% / 3);
     height: 500px;
     display: flex;
@@ -269,41 +288,79 @@ header .max-container {
     width: 50%;
     height: 50%;
     border: solid 1px black;
-    background-color: #A2D39B;
 }
 .square img {
     width: 50%;
-    color: white;
+    filter: invert(100%);
+}
+.square-1 {
+    border: solid 20px #7c967c83;
+    background-color: #A2D39B;
+}
+.square-2 {
+    background-color: #61082B;
+}
+.square-3 {
+    background-color: #0093CE;
+}
+.square-4 {
+    background-color: #FF1C1C;
+}
+.square-5 {
+    background-color: #D5001F;
+}
+.square-6 {
+    background-color: #B4D0E7;
+}
+.square-7{
+    background-color: #0D2481;
+}
+.square-8 {
+    background-color: #FFD830;
 }
 
 .square-box-center {
     width: calc(100% / 3);
     height: 500px;
     display: flex;
+    flex-direction: column;
     overflow-y: auto;
+    background-color: whitesmoke;
+}
+.square-box-center {
+    padding: 40px;
+}
+.square-box-center p{
+    font-size: 12px;
+}
+.square-box-center span{
+    font-size: 12px;
+    padding-top: 20px;
+}
+.title-square-box-center img{
+    width: 50%;
 }
 
-.square-box-right {
-    width: calc(100% / 3);
-    height: 500px;
-    display: flex;
-    flex-wrap: wrap;
-}
 /* fine square-box */
+/* domande */
 .h2 {
     padding: 50px;
+    color: #61082B;
 }
 .ask {
     width: 100%;
     padding: 30px;
     border-top: solid 1px black;
 }
+.ask i {
+    padding-left: 80px;
+}
 
 .last-ask{
     border-bottom: solid 1px black;
     margin-bottom: 50px;
 }
-
+/* fine domande */
 /* --->MAIN<--- */
 
 /* --->FOOTER<--- */
