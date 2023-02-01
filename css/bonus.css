@@ -18,5 +18,13 @@
 }
 .container-ask:hover {
     height: 150px;
-    
+
 }
+
+.button:hover {
+    opacity: 0.5;
+}
+.button-white:hover {
+    opacity: 0.5;
+}
+
