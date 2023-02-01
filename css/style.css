@@ -63,8 +63,8 @@ main {
     display: block;
 }
 .padding {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  
 }
 .padding-bottom {
     padding-bottom: 50px;
@@ -95,13 +95,16 @@ header .max-container {
     position: fixed;
     z-index: 100;
 }
+
 .header ul{
     list-style-type: none;
     display: flex;   
-    padding: 10px;
+    
+    height: 100%;
 }
 .header li {
     padding: 10px;
+    padding-bottom: 20px;
     display: flex;
     align-items: center;
 }

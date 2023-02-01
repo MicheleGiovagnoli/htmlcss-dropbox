@@ -1,0 +1,22 @@
+
+.list:hover{
+    border-bottom: solid 1px brown;
+}
+
+.container-ask {
+    position: relative;
+}
+
+.ask {
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+.description{
+    position: absolute;
+    bottom: 0px;
+}
+.container-ask:hover {
+    height: 150px;
+    
+}
